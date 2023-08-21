@@ -1,0 +1,28 @@
+
+.navBar{
+    max-width: 100vw;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    
+    h1{
+        color: rgb(255, 65, 65);
+    }
+
+    .userCard{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        img{
+            width: 50px;
+            border-radius: 50%;
+        }
+    }
+
+    
+}
