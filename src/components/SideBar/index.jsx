@@ -16,6 +16,7 @@ function SideBar() {
       <Link to="/">Documentos</Link>
       <Link to="/">Relatóricos Financeiros</Link>
       <Link to="/">Cadastro de Imóveis</Link>
+      <Link to="/cadastro-de-clientes">Cadastro de Clientes</Link>
     </nav>
   );
 }

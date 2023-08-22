@@ -7,6 +7,7 @@ import SideBar from './components/SideBar/index';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import GestaoTarefas from './pages/GestaoTarefas';
+import CadastroClientes from './pages/CadastroClientes';
 
 const App = () => {
   return(
@@ -15,10 +16,11 @@ const App = () => {
           <Nav />
           <div className='content'>
             <SideBar />
-            <div>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
                   <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/gestao-de-tarefas' element={<GestaoTarefas />} />
+                    <Route path='/cadastro-de-clientes' element={<CadastroClientes />} />
                   </Routes>
             </div>
           </div>
